@@ -31,7 +31,7 @@ public class HelloWorldTests {
     public void shouldPrintHelloWorldToConsole() {
         HelloWorld.main(new String[] { });
 
-        assertThat(output(), containsString("Hello World!"));
+        assertThat(output(), containsString("Hello world!"));
     }
 
     private String output() {
