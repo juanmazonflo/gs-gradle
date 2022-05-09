@@ -31,7 +31,7 @@ public class HelloWorldTests {
     public void shouldPrintHelloWorldToConsole() {
         HelloWorld.main(new String[] { });
 
-        assertThat(output(), containsString("Bienvenido al mundo Pokémon!"));
+        assertThat(output(), containsString("Hello world!"));
     }
 
     private String output() {
